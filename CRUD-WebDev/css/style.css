@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 0.5rem 0;
+}
+
+#form-section {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+form input, form button {
+  flex: 1 1 45%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  flex: 1 1 100%;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: black;
+}
+
+#cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+}
+
+.card p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.actions {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+button.action {
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+}
+
+button.edit { background: black; color: white; }
+button.delete { background: #dc3545; color: white; }
+button.favorite { background: black; }
+button.favorite.active { background: red; }
