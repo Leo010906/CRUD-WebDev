@@ -27,7 +27,7 @@ Todos os dados são armazenados localmente no **LocalStorage**, simulando um ban
 ---
 
 ## 🚀 Link do Projeto
- [GitHub Pages](#)  
+ [GitHub Pages](https://leo010906.github.io/CRUD-WebDev/)  
  
 
 ---
