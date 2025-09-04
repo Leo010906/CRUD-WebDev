@@ -16,10 +16,6 @@ Todos os dados são armazenados localmente no **LocalStorage**, simulando um ban
 - **Favoritar jogadoras:** marcação com persistência no LocalStorage  
 - **Validação de formulário:** garante que todos os campos sejam preenchidos  
 - **Feedback visual:** alertas confirmando ações (adicionar, editar, excluir)  
-- **Funcionalidades extras (bônus):**  
-  - Busca por nome ou posição  
-  - Filtro por clube  
-  - Ordenação por nome ou posição  
 
 ---
 
