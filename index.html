@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CRUD-WebDev/css/style.css">
+    <title>Sistema de Cadastro</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Cadastro de Jogadoras</h1>
+        <img src="/CRUD-WebDev/img/logo.png" alt="Logo do Sistema" style= "width: 100px; height: auto;">
+    </header>
+
+    
+
+    <main>
+    <!-- Formulário -->
+    <section id="form-section">
+      <center><h2>Jogadora</h2></center>
+      <form id="player-form">
+        <input type="hidden" id="edit-index">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="text" id="posicao" placeholder="Posição" required>
+        <input type="text" id="clube" placeholder="Clube" required>
+        <input type="url" id="foto" placeholder="URL da foto" required>
+        <input type="number" id="gols" placeholder="Gols" required>
+        <input type="number" id="assistencias" placeholder="Assistências" required>
+        <input type="number" id="jogos" placeholder="Jogos" required>
+        <button type="submit">Salvar</button>
+      </form>
+    </section>
+
+    <!-- Cards -->
+    <section id="cards-section">
+      <center><h2>Lista de Jogadoras</h2></center>
+      <div id="cards-container"></div>
+    </section>
+  </main>
+
+  
+
+  <script src="/CRUD-WebDev/javascrip/script.js"></script>
+
+</body>
+</html>
